@@ -43,7 +43,7 @@ export default function Testimonials() {
             >
               {/* Quote mark decoration */}
               <div className="absolute top-6 right-6 text-6xl leading-none text-blue-100 font-serif">
-                "
+                &quot;
               </div>
               
               {/* Rating */}
@@ -55,7 +55,7 @@ export default function Testimonials() {
               
               {/* Testimonial content */}
               <p className="text-gray-600 mb-6 relative z-10">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </p>
               
               {/* Author */}
