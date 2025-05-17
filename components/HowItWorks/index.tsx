@@ -55,9 +55,9 @@ export default function HowItWorks() {
         </div>
 
         {/* Connection lines between steps - visible only on wider screens */}
-        <div className="hidden md:block relative h-0">
+        {/* <div className="hidden md:block relative h-0">
           <div className="absolute top-[-120px] left-[33%] right-[33%] border-t-2 border-dashed border-blue-200"></div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
